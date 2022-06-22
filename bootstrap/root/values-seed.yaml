@@ -1,3 +1,4 @@
 gitops:
   repo: https://github.com/gitfrederic/homelab-public
+  revision: main
 
