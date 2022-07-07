@@ -17,7 +17,7 @@ dex:
           redirectURI: https://dex.innersphere.xyz/callback
           baseURL: https://git.innersphere.xyz
     staticClients:
-      - id: grafana-sso
+      - id: dec31b16-9531-4519-97c0-3ce16d5aa2c0
         name: Grafana
         redirectURIs:
           - 'https://grafana.innersphere.xyz/login/generic_oauth'
