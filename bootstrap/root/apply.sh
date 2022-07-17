@@ -1,7 +1,9 @@
 #!/bin/sh
 
-curl -fks --connect-timeout 5 https://git.innersphere.xyz \
-    || extra_args="--values values-seed.yaml"
+#curl -fks --connect-timeout 5 https://git.innersphere.xyz \
+#    || extra_args="--values values-seed.yaml"
+
+extra_args="--values values.yaml"
 
 helm template \
     --include-crds \
